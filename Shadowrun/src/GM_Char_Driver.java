@@ -3,6 +3,11 @@ public class GM_Char_Driver
 {
 	public static void main(String[] args)
 	{
+		printShadowrunLogo();
+	}
+	
+	private static void printShadowrunLogo()
+	{
 		System.out.println("                               .                                         .:::;r;,,.                         ");
 		System.out.println("                          .::...,;::                                   ,. .      sX                         ");
 		System.out.println("                      :r:2i .     9H;3i                             ;r.      s    .:si;.                    ");
