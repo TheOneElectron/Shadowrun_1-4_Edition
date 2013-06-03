@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-
+///////////////////////////////////////////////////////////////////////
 public class CharacterGenerator 
 {
 	String characterName = "I need a name!";
 	String characterRace = "Not selected yet.";
 	int[] raceMaxAttribute;
 	int maxAttributes;
-	
+//---------------------------------------------------------------------	
 	public void nameAndRaceSetUp(String name, int race)
 	{
 		characterName = name;
@@ -42,7 +42,7 @@ public class CharacterGenerator
 			System.out.println("Please select again.");	
 		}
 	}
-	
+//---------------------------------------------------------------------	
 	private void maximumAtributesSetUp(int[] rMA, int[] maxRacialAtt)
 	{
 		for(int i = 0; i < maxAttributes; i++)
@@ -50,7 +50,7 @@ public class CharacterGenerator
 			rMA[i] = maxRacialAtt[i];
 		}
 	}
-	
+//---------------------------------------------------------------------	
 	public void attributeSetUp(int[] att, int[] dRoll)
 	{
 		boolean editCharacterStats = true;
@@ -107,7 +107,7 @@ public class CharacterGenerator
 				editCharacterStats = false;
 		}
 	}
-	
+//---------------------------------------------------------------------	
 	public int getInput(boolean[] select)
 	{
 		int choice = 0;
@@ -121,7 +121,7 @@ public class CharacterGenerator
 			}
 		}
 	}
-	
+//---------------------------------------------------------------------	
 	public boolean yes()
 	{
 		System.out.println("Are these attributes ok?");
@@ -131,4 +131,6 @@ public class CharacterGenerator
 	    	return true;
 		return false;
 	}
+//---------------------------------------------------------------------
 }
+///////////////////////////////////////////////////////////////////////

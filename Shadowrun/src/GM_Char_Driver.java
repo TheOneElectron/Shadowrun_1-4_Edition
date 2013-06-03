@@ -1,11 +1,12 @@
-
+///////////////////////////////////////////////////////////////////////
 public class GM_Char_Driver 
 {
+//---------------------------------------------------------------------	
 	public static void main(String[] args)
 	{
 		printShadowrunLogo();
 	}
-	
+//---------------------------------------------------------------------		
 	private static void printShadowrunLogo()
 	{
 		System.out.println("                               .                                         .:::;r;,,.                         ");
@@ -41,4 +42,4 @@ public class GM_Char_Driver
 		System.out.println("                                                    ,   ;                                                   ");
 	}
 }
-
+///////////////////////////////////////////////////////////////////////

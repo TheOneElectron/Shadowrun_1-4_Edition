@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-
+///////////////////////////////////////////////////////////////////////
 public class CharacterSheet 
 {
 	final private int maxAttributes = 9;
@@ -19,17 +19,17 @@ public class CharacterSheet
 	private Object[] languages     = new Object[0];
 	private Object[] condition     = new Object[0];
 	private Object[] allergies     = new Object[0];	
-	
+//---------------------------------------------------------------------	
 	public int[] getRacialMaxAttributes()
 	{
 		return raceMaxAttribute;
 	}
-	
+//---------------------------------------------------------------------	
 	public int[] getCharacterAttributes()
 	{
 		return attributes;
 	}
-	
+//---------------------------------------------------------------------	
 	public void getCharacter()
 	{
 		System.out.println(characterName);
@@ -39,4 +39,6 @@ public class CharacterSheet
 			System.out.println(attributes[i]);
 		}
 	}
+//---------------------------------------------------------------------
 }
+///////////////////////////////////////////////////////////////////////
